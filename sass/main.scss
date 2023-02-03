@@ -16,23 +16,6 @@ $nav-tabs-border-width: 2px;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-.size-adjusted-side-margin {
-	@media (min-width: 600px) {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	@include media-breakpoint-up(lg) {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-	@include media-breakpoint-up(xl) {
-		margin-left: 15%;
-		margin-right: 15%;
-	}
-}
-
 html {
 	scroll-behavior: auto;
 }
@@ -67,14 +50,26 @@ body {
 	}
 }
 
+.size-adjusted-side-margin {
+	@media (min-width: 600px) {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	@include media-breakpoint-up(lg) {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	@include media-breakpoint-up(xl) {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+
 .btn-shadow {
-	// width: 35%;
-	// height: 30%;
-	// margin: 7%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transition-duration: 0.4s;
-	// padding: 10px;
-	// align-items: center;
 
 	@include media-breakpoint-up(md) {
 		width: 15%;
@@ -86,10 +81,6 @@ body {
 .maxw-80 {
 	max-width: 80px;
 }
-
-// .jump-point-offset {
-// 	scroll-margin-top: 20em;
-// }
 
 .lg-marg {
 	margin-top: 10%;
@@ -250,15 +241,6 @@ b {
 		height: 250px;
 	}
 }
-
-// .cover-logo-container {
-// 	@include media-breakpoint-up(md) {
-// 		width: 50%;
-// 		height: 100%;
-// 		display: flex;
-// 		justify-content: center;
-// 	}
-// }
 
 .cover-logo {
 	@include media-breakpoint-up(md) {
