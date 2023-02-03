@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "webpack watch",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"repository": {
 		"type": "git",
@@ -25,6 +27,7 @@
 	"homepage": "https://github.com/zaffiroblu/wv-berlin#readme",
 	"devDependencies": {
 		"css-loader": "^6.7.1",
+		"gh-pages": "^5.0.0",
 		"html-webpack-plugin": "^5.5.0",
 		"mini-css-extract-plugin": "^2.6.1",
 		"sass-loader": "^13.0.2",
