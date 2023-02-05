@@ -11,7 +11,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/zaffiroblu/wv-berlin.git"
+		"url": "git+https://github.com/wv-berlin/info.git"
 	},
 	"keywords": [
 		"Wahlverwandtschaften",
@@ -22,9 +22,9 @@
 	"author": "Jen Shivel",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/zaffiroblu/wv-berlin/issues"
+		"url": "https://github.com/wv-berlin/info/issues"
 	},
-	"homepage": "https://github.com/zaffiroblu/wv-berlin#readme",
+	"homepage": "https://wv-berlin.github.io/info/",
 	"devDependencies": {
 		"css-loader": "^6.7.1",
 		"gh-pages": "^5.0.0",
